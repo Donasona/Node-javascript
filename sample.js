@@ -15,3 +15,7 @@
 // const age = 26
 // age = 30
 // console.log("age")
+
+var name = "hello"
+
+console.log(name)
