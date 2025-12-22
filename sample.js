@@ -93,5 +93,9 @@ console.log(num1)
 // or - ||
 // not - |
 
+// ternary operator
+
+
+
 
 
