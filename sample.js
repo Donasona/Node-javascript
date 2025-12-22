@@ -70,6 +70,8 @@ console.log(typeof subject)
 
 // arithmetics
 
+// +,-,*,/,**,++inc,--dec
+
 num = 10
 
 num2 = 20
@@ -80,6 +82,16 @@ num1 = 5
 
 console.log(num1 --)
 console.log(num1)
+
+// comparison operators
+
+// <,>,<=,>=,=,==
+
+// logical operators
+
+// and - &&
+// or - ||
+// not - |
 
 
 
