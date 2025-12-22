@@ -39,9 +39,25 @@ isAvailable = true
 
 console.log(typeof isAvailable)
 
-// In python we write in snake_case --> is_available
-//  In javascript we write in camelCase --> isAvailable
+    // In python we write in snake_case --> is_available
+    //  In javascript we write in camelCase --> isAvailable
 
+// 5.Null
 
+var value = null
+
+console.log(typeof value)
+
+var price = 500
+
+var price = null
+
+console.log(price)
+
+// 6.Undefined
+
+var subject;
+
+console.log(typeof subject)
 
 
