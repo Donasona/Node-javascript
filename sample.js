@@ -33,3 +33,15 @@ console.log(typeof num)
 
 // 3.String
 
+// 4.Boolean
+
+isAvailable = true
+
+console.log(typeof isAvailable)
+
+// In python we write in snake_case --> is_available
+//  In javascript we write in camelCase --> isAvailable
+
+
+
+
