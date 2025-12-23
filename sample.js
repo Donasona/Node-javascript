@@ -95,6 +95,37 @@ console.log(num1)
 
 // ternary operator
 
+// ? , :
+
+//  condition ? true : false
+
+age = 20
+
+let result = age > 18 ? "eligible": "not eligible"
+
+console.log(result)
+
+// conditional statement
+
+// if else
+var age = 20;
+
+if(age>18){
+    console.log("eligible")
+}else{
+    console.log("not eligible")
+}
+
+// if else-if else
+
+var age = 20;
+
+if(age < 18){
+    console.log("not")
+}
+
+
+
 
 
 
