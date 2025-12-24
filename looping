@@ -1,0 +1,15 @@
+what is looping?
+ which allows a block of code to be executed repeatedly
+
+type of looping?
+ for loop 
+   - quantity based looping 
+   syntax:
+      for(initialization;condition;increment/decrement){
+		    //code to be exected repeatedly
+	  }
+ while loop 
+   - condition based looping 
+   syntax:
+      while(condition){}	  
+	  
