@@ -52,3 +52,9 @@ for(i=2;i<20;i+=2){
 // print the elements at the even index positions
 
 let text = "javascript"
+
+for (let i =0;i<text.length;i++){
+    if(i%2==0){
+        console.log(text[i]);
+    }
+}
