@@ -42,7 +42,7 @@
 //  }
 //  console.log("total prime num:",count)
 
-//  2.
+ 2.
 let start = 1
 let stop = 50
 let largest = 0;
@@ -62,3 +62,4 @@ let largest = 0;
 
  }
  console.log("largest prime num:",largest)
+
