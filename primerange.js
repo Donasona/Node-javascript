@@ -45,7 +45,7 @@
 //  2.
 let start = 1
 let stop = 50
-let count = 0;
+let largest = 0;
  for(let num = start;num <= stop;num++){
     if(num>1){
     let isPrime=true;
@@ -56,9 +56,9 @@ let count = 0;
         }
     }
     if(isPrime == true){
-        count++;
+            largest=num;    
     }
     }
 
  }
- console.log("total prime num:",count)
+ console.log("largest prime num:",largest)
