@@ -11,5 +11,8 @@ type of looping?
  while loop 
    - condition based looping 
    syntax:
-      while(condition){}	  
+      while(condition){
+        //code 
+        //increment or //decrement
+      }	  
 	  
