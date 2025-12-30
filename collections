@@ -1,0 +1,15 @@
+COLLECTIONS
+===========
+
+to assign more than one value (in different datatype) in a single variable
+
+1. Array
+
+ordered, indexed ,allow duplicates
+
+let elements = [100,"hello",true]
+console.log(elements[1])
+elements.push(false) //last aayi push aavum
+console.log(elements)
+elements.pop()
+console.log(elements.toReversed())
