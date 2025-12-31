@@ -9,4 +9,4 @@ for(let i=0;i<num.length;i++){
 while(result.length<num.length){
     result.push(0)
 }
-console.log(result)
+console.log(result) 
