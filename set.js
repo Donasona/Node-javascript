@@ -1,14 +1,3 @@
-//set
-// ===
-
-// unordered
-// no index position
-// duplicate not allowed
-
-
-
-
-
 
 // calculate the count of even and odd num 
 // sum of all elements in the array 
