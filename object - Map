@@ -37,7 +37,7 @@ elements.get(elements.get("name"))
 console.log(elements.has("name"))  //true
 console.log(elements.has("height"))  //false
 
--delete(key)
+// -delete(key)
 
 elements.delete("name")  //true
 elements.clear()
