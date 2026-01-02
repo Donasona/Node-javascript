@@ -1,0 +1,46 @@
+// Object
+
+- object are key value collection 
+- key String
+- order is not guaranteed
+- console.log(Student.name)  //Rahul
+
+
+
+let Student = {
+    name = "Rahul",
+    age = "32 ,
+    course = "js"
+}
+console.log(Student.name)
+
+//Map
+
+- Map does not auto convert keys to the String.
+- add or update the key value pair in Map
+- set(key,value)
+- keys can be of datatype
+- if key already exist the value will be updated.
+- Elements.set("name","arun")
+- console.log(Elements)
+
+let elements = new Map()
+elements.set("name","anu");
+console.log(elements)
+
+- get(key)
+
+elements.get(elements.get("name"))
+
+- has(key)  //check if the key is present(true) else false
+
+console.log(elements.has("name"))  //true
+console.log(elements.has("height"))  //false
+
+-delete(key)
+
+elements.delete("name")  //true
+elements.clear()
+elements.size  // property total no of key value pair in the map
+
+
