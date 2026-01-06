@@ -161,3 +161,8 @@ const sums = (a,b) => a+ b
 
 const square = (a) => a*a;
 console.log(square(6));
+
+// check a num is even or odd 
+
+const evenOdd = (a) => (a % 2 == 0)?"Even":"Odd"
+console.log(evenOdd(7));
