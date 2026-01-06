@@ -108,19 +108,6 @@ Greet(Sayhello)
 
 //define a function to given number is prime or not
 
-// function isPrime(num,callback){
-//     if(num<=1){
-//         callback(false);
-//         return;
-//     }
-//     for (let i=2;i<=Math.sqrt(num);i++){
-//         if(num%i==0){
-//             callback(false);
-//             return;
-//         }
-//     }
-//     callback(true):
-// }
 
 function isPrime(num) {
   if (num <= 1) {
