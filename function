@@ -41,19 +41,19 @@ console.log(result)
 
 // define a function to check the largest among the three numbers
 
-function largest(a,b,c){
-    if(a>b && a>c){
-        console.log(a)
-    }
-    else if(b>a && b>c){
-        console.log(b)
-    }
-    else{
-        console.log(c)
-    }
+// function largest(a,b,c){
+//     if(a>b && a>c){
+//         console.log(a)
+//     }
+//     else if(b>a && b>c){
+//         console.log(b)
+//     }
+//     else{
+//         console.log(c)
+//     }
 
-}
-largest(4,5,6)
+// }
+// largest(4,5,6)
 
 //define a function which accepts two values
 //return true if 2 numbers are even
@@ -166,3 +166,8 @@ console.log(square(6));
 
 const evenOdd = (a) => (a % 2 == 0)?"Even":"Odd"
 console.log(evenOdd(7));
+
+// check and return the largest among two numbers
+
+const largest = (a,b) => (a>b ? a : b);
+console.log(largest(10,29));
