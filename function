@@ -124,6 +124,9 @@ function isPrime(num) {
 console.log(isPrime(7))
 
 //callback function using parameter
+//execution of one function is depend on another
+// result is not available immediately
+// used for asynchronous function
 
 function mainfunction(callback,num1,num2){
     callback(num1,num2)
