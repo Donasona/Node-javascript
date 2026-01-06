@@ -150,3 +150,14 @@ const details =(name,age) =>{
     console.log(name)
     console.log(age)
 }
+details("anu",27)
+
+// add two number 
+
+const sums = (a,b) => a+ b
+    console.log(sums(10,20))
+    
+// find thw square of a given number
+
+const square = (a) => a*a;
+console.log(square(6));
