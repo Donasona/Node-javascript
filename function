@@ -1,0 +1,111 @@
+
+// function
+
+//export import
+// reusable
+// dynamic values
+
+//function functionname(param1,param2){
+    //   fun headers 
+    //   fn body
+//}
+//functionname()  caller
+
+function greet(){
+    console.log("hello everyone")
+}
+greet()
+
+//function with parameter
+//  parameter is a variable which accepts a value when the function is called 
+
+// function addNum(num1,num2){
+//     sum = num1+num2
+//     console.log(sum)
+// }
+
+
+//addNum(num1 =10,num2 =20) // actual values for parameters passed during function call
+//addNum(num1 =5,num2 = 7)
+
+
+// function with return value
+
+function addNums(num1 , num2){
+    sum = num1 + num2
+    console.log("hello")
+    return sum    // which return a specific value (outside) where the function is called
+}
+let result = addNums(10,20) //caller
+console.log(result)
+
+// define a function to check the largest among the three numbers
+
+function largest(a,b,c){
+    if(a>b && a>c){
+        console.log(a)
+    }
+    else if(b>a && b>c){
+        console.log(b)
+    }
+    else{
+        console.log(c)
+    }
+
+}
+largest(4,5,6)
+
+//define a function which accepts two values
+//return true if 2 numbers are even
+//return false if any of them is even
+
+
+function oddeven(a,b){
+    if(a %2 ==0 && b%2==0){
+        return true;
+    }
+    else{
+        return false
+    }
+}
+console.log(oddeven(4,5))
+
+function apiresponse(status){
+    if(status == 200){
+        return "success";
+    }
+    else if(status == 404){
+        return "page not found";
+    }
+    else if(status ==500){
+        return "server error";
+    }
+    else{
+        return "server crashed";
+    }
+}
+
+let results = apiresponse(404)
+console.log(results)
+
+
+// callback function
+
+// A function(B) is passed as an argument for a main function(A) in which A will be executed later
+
+// function sum(a,b){
+//     console.log(a+b)
+// }
+// sum(2,3)
+
+function Greet(callback){
+    callback()
+}
+function Sayhello(){
+    console.log("hello")
+}
+Greet(Sayhello)
+
+//define a function to given number is prime or not
+
+function 
