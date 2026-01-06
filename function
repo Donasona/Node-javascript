@@ -171,3 +171,11 @@ console.log(evenOdd(7));
 
 const largest = (a,b) => (a>b ? a : b);
 console.log(largest(10,29));
+
+// fetch()
+
+// to fetch the data from a server json
+
+//fetch(url)
+
+// function sends a request to the url (defaults method : get)
