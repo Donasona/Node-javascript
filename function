@@ -141,7 +141,12 @@ mainfunction(addNums,10,20)
 
 //shorter way to write the function in js
 
-function details(name,age){
-    console.log(nmae)
+// function details(name,age){
+//     console.log(nmae)
+//     console.log(age)
+// }  // noemal function
+
+const details =(name,age) =>{
+    console.log(name)
     console.log(age)
 }
