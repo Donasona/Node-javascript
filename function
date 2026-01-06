@@ -136,3 +136,12 @@ function addNums(num1,num2){
     console.log(sum)
 }
 mainfunction(addNums,10,20)
+
+//Arrow function
+
+//shorter way to write the function in js
+
+function details(name,age){
+    console.log(nmae)
+    console.log(age)
+}
