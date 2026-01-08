@@ -19,6 +19,9 @@ console.log(numbers.map(num => num**2)) //callback function
 // // numbers = [4,9,16,25]
 
 // let num =[4,9,16,25]
+
+// 3**2   3**1/2 => 3**0.5
+
 // console.log(num.map(n => n**0.5))
 
 // // find the cube of each element in the array
