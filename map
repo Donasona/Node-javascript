@@ -1,5 +1,10 @@
 array >> map,filter,reduce
 
+
+// 1. MAP  
+// =======
+
+
 // we can apply a specific function to each element in array without using loops
 [1,2,3,4]  [1,4,9,16]
 
@@ -30,8 +35,11 @@ console.log(numbers.map(num => num**2)) //callback function
 // let nums =[1,2,3,4,5]
 // console.log(nums.map(nu => nu **3))
 
-// // FILTER >> method not fn
+
+
+// // 2. FILTER >> method not fn
 // // =======
+
 
 // // return the element from the array which matches a given condition
 
@@ -54,12 +62,14 @@ console.log(numbers.map(num => num**2)) //callback function
 // console.log(array.filter(t => t%3 == 0 &&  t%5 == 0))
 
 
-// // REDUCE
+// //3. REDUCE
 // // =======
+
+
 
 // n =[5,15,30,25,10,8]
 
-// let total = n.reduce((a,b) => a+b )
+// let total = n.reduce((a,b) => a+b )  // a=0  accumulator
 // console.log(total)
 
 
