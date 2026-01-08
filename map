@@ -11,7 +11,8 @@ syntax
 //}
 
 let numbers = [2,3,4,5,6]
-console.log(numbers.map(num => num**2))
+
+console.log(numbers.map(num => num**2)) //callback function
 
 
 // // find the square root of each element in the array
