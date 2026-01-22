@@ -15,7 +15,7 @@ else if (unit > 100 && unit < 200){
     console.log(result)
 }
 
-// else{
-//     result = unit * 3
-//     console.log(result)
-// }
+else{
+    result = unit * 3
+    console.log(result)
+}
