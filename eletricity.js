@@ -10,10 +10,10 @@ if (unit <= 100){
     console.log(result)
 }
 
-else if (unit > 100 && unit < 200){
-     result = unit * 2
-    console.log(result)
-}
+// else if (unit > 100 && unit < 200){
+//      result = unit * 2
+//     console.log(result)
+// }
 
 else{
     result = unit * 3
